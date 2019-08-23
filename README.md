@@ -1,11 +1,11 @@
 ## Setup
 
-### Sign-in to Required Accounts
+## Sign-in to Required Accounts
 
 1. Sign into GitHub: <a href="https://github.com/login" target="_blank">Github</a>
 2. Sign into Codenvy: <a href="https://codenvy.io/site/login" target="_blank">Codenvy</a>
 
-### Creating a New GitHub Repo For Your Site
+## Creating a New GitHub Repo For Your Site
 
 GitHub will host a website for each user and organization for free.  The feature is called <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
@@ -41,16 +41,16 @@ Follow these steps and see the screenshot below to create a new repository.
 
 Awesome, you created your repository!
 
-### Creating a Codenvy Workspace for our Website Project
+## Creating a Codenvy Workspace for our Website Project
 
-GitHub is where we store and version our code. Codenvy is where we edit our code.  COdenvy is web-based set of tools for creating software.  By working in the cloud, our projects workspace is independent from any one computer. 
+GitHub is where we store and version our code. Codenvy is where we edit our code.  Codenvy is web-based set of tools for creating software.  By working in the cloud, our projects workspace is independent from any one computer. 
 
 Follow these steps and see the screenshot below to create a new workspace.
 
 1. Sign into Codenvy.io
-2. On the left sidebar, go to "Workspaces"
-3. Click on "Add Workspace"
-    A) Name: "operation-spark"
+2. On the left sidebar, go to "Workspaces". Click on "Add Workspace"
+3. When creating a new workspace:
+    A) Name: "opspark"
     B) Team: "personal"
     C) Select Stack: All
     D) Scroll down until you find "Ubuntu"
@@ -59,32 +59,35 @@ Once you have followed these steps you can create your workspace
 
 <img src="img/codenvy-create-workspace-part-1.png">
 
-### Cloning repository from Github to Codenvy Workspace
+## Cloning repository from Github to Codenvy Workspace
 
-1.  Next step, we need to _clone_ our repository into our Cloud9 workspace, where we will do our work.  After creating the repository on GitHub, you'll be brought to the repository's default view.  In the top right corner of the screen, you will want to:
+Next step, we need to _clone_ our repository into our Codenvy workspace, where we will do our work.  After creating the repository on GitHub, you'll be brought to the repository's default view.  
+
+**Return to github.com**
+
+1.  In the top right corner of the screen, you will want to:
     
-    A) Click Clone or download (See A). Make sure that "Clone with HTTPS" appears in the top right corner of the dropdown box. PLEASE NOTE: THIS STEP IS IMPORTANT! Make sure Clone with HTTPS is selected! IF it is not, an option to select it should appear in the top right corner of the dropdown box.
+    A) Click Clone or download (See A). Make sure that "Clone with HTTPS" appears in the top right corner of the dropdown box.
     
     B) Click the "Copy URL to clipboard" button (See B).
     
-    <img src="https://raw.githubusercontent.com/magdalenemc/first-website/edit1/img/copy-repo-url.png"> 
+    <img src="img/github-clone-repo.png"> 
 
-
-2. On the left sidebar, go to "Workspaces". Click on "Add Workspace"
-
-    A) Name: "operation-spark"
-    
-    B) Team: "personal"
-    
-    C) Select Stack: All
-    
-    D) Scroll down until you find "Ubuntu"
-      
-    Once you have followed these steps you can create your workspace
-    
-3. Clone your Github repository into your Codenvy workspace by copy/pasting this command into the terminal at the bottom of your workspace (replace `"my-github-url.github.io"` with your own github url that you copied from step 1):
+**Return to your newly created Codenvy workspace**
+       
+2. Clone your Github repository into your Codenvy workspace by copy/pasting this command into the terminal at the bottom of your workspace (replace `"my-github-url.github.io"` with your own github url that you copied from step 1):
 
 `git clone "my-github-url.github.io`
+
+<img src="img/git-clone.png"> 
+
+3. In your bash terminal enter these commands (Substitute you information anywhere you see `"my-github-"):
+
+```
+cd my-github-username.github.io
+git config user.email "my-github-email@gmail.com"
+git config user.name "my-github-username"
+```
 
 ## Install `opspark` tool
 
@@ -104,21 +107,3 @@ os login
 ```
 
 4. When prompted, enter your Github username and password.
-
-## Lesson Steps
-
-### TODO 1 : Create index.html
-
-Right-click in the file system and select `New File`
-
-<img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/create-new-file.png">
-
-Name the file, `index.html`, (press return after naming it to save the new name) like so:
-
-<img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/name-it-index.png">
-
-Next, double click the `index.html` file to open it so we can begin editing the file, like so:
-
-<img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/open-index-html.png">
-
-Ok great!  We've created our `index.html` file and opened it in the text editor to start developing our website!
