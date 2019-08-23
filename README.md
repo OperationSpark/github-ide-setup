@@ -57,7 +57,7 @@ Follow these steps and see the screenshot below to create a new workspace.
     
 Once you have followed these steps you can create your workspace
 
-<img src="https://raw.githubusercontent.com/OperationSpark/images/tree/master/github-codenvy-images/codenvy-create-workspace-part-1.png">
+<img src="img/codenvy-create-workspace-part-1.png">
 
 ### Cloning repository from Github to Codenvy Workspace
 
