@@ -45,6 +45,22 @@ Awesome, you created your repository!
 
 GitHub is where we store and version our code. Codenvy is where we edit our code.  COdenvy is web-based set of tools for creating software.  By working in the cloud, our projects workspace is independent from any one computer. 
 
+Follow these steps and see the screenshot below to create a new workspace.
+
+1. Sign into Codenvy.io
+2. On the left sidebar, go to "Workspaces"
+3. Click on "Add Workspace"
+    A) Name: "operation-spark"
+    B) Team: "personal"
+    C) Select Stack: All
+    D) Scroll down until you find "Ubuntu"
+    
+Once you have followed these steps you can create your workspace
+
+<img src="https://raw.githubusercontent.com/OperationSpark/images/tree/master/github-codenvy-images/codenvy-create-workspace-part-1.png">
+
+### Cloning repository from Github to Codenvy Workspace
+
 1.  Next step, we need to _clone_ our repository into our Cloud9 workspace, where we will do our work.  After creating the repository on GitHub, you'll be brought to the repository's default view.  In the top right corner of the screen, you will want to:
     
     A) Click Clone or download (See A). Make sure that "Clone with HTTPS" appears in the top right corner of the dropdown box. PLEASE NOTE: THIS STEP IS IMPORTANT! Make sure Clone with HTTPS is selected! IF it is not, an option to select it should appear in the top right corner of the dropdown box.
