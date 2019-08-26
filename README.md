@@ -12,8 +12,9 @@ GitHub will host a website for each user and organization for free.  The feature
 The first thing we need to do is create a new repository on GitHub and name it using the following naming pattern:
 
     yourusername.github.io
-    
-<a href="https://github.com/new" target="_blank">Click here to open a new browser tab and create create a new GitHub repository</a>.
+
+Click here to open a new browser tab and create create a new GitHub repository:
+<a href="https://github.com/new" target="_blank">Right Click --> Open Link In New Tab </a>.
 
 NOTE: If you're not signed-in to GitHub, you might see a web page that says 404 (This is not the web page you are looking for).  Just sign-in to GitHub on this page and you will be forward to the _create new repository_ page.
 
