@@ -82,11 +82,13 @@ Next step, we need to _clone_ our repository into our Codenvy workspace, where w
 
 <img src="img/git-clone.png"> 
 
-2. Clone your Github repository into your Codenvy workspace by copy/pasting this command into the terminal at the bottom of your workspace (replace `"my-github-url.github.io"` with your own github url that you copied from step 1):
+2. **(See B)** Clone your Github repository into your Codenvy workspace by typing this command into the terminal at the bottom of your workspace (replace `"my-github-url.github.io"` with your own Github url by pasting the link that you copied from step 1):
 
 ```
 git clone "my-github-url.github.io`
 ```
+
+3. You should now have your Github repository downloaded into your workspace **(See A)**
 
 3. In your bash terminal enter these commands (Substitute you information anywhere you see `"my-github-"):
 
