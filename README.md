@@ -19,6 +19,9 @@ NOTE: If you're not signed-in to GitHub, you might see a web page that says 404 
 
 Follow these steps and see the screenshot below to create a new repository.
 
+**Click to enlarge image**
+<img src="https://raw.githubusercontent.com/magdalenemc/first-website/edit1/img/create-repo.png">
+
 1. On the Create New Repository page, in the box for **Repository name**, name the repository like:
 
     `your-github-username.github.io`
@@ -36,9 +39,6 @@ Follow these steps and see the screenshot below to create a new repository.
     
 6. Double check that you have followed these instructions properly. Then click **Create Repository** **(See F)**.
 
-**Click to enlarge image**
-<img src="https://raw.githubusercontent.com/magdalenemc/first-website/edit1/img/create-repo.png">
-
 Awesome, you created your repository!
 
 ## Creating a Codenvy Workspace for our Website Project
@@ -47,17 +47,21 @@ GitHub is where we store and version our code. Codenvy is where we edit our code
 
 Follow these steps and see the screenshot below to create a new workspace.
 
+<img src="img/codenvy-create-workspace-part-1.png">
+
 1. Sign into Codenvy.io
-2. On the left sidebar, go to "Workspaces". Click on "Add Workspace"
-3. When creating a new workspace:
+2. On the left sidebar of your Codenvy Dashboard, go to "Workspaces". Click on "Add Workspace"
+3. When creating a new workspace make sure to enter these fields as follows:
+
     A) Name: "opspark"
+    
     B) Team: "personal"
+    
     C) Select Stack: All
+    
     D) Scroll down until you find "Ubuntu"
     
-Once you have followed these steps you can create your workspace
-
-<img src="img/codenvy-create-workspace-part-1.png">
+Once you have followed these steps you can create your workspace. This may take a moment so while it gets set up we can clone our repository from Github.
 
 ## Cloning repository from Github to Codenvy Workspace
 
@@ -65,21 +69,23 @@ Next step, we need to _clone_ our repository into our Codenvy workspace, where w
 
 **Return to github.com**
 
+<img src="img/github-clone-repo.png"> 
+
 1.  In the top right corner of the screen, you will want to:
     
     A) Click Clone or download (See A). Make sure that "Clone with HTTPS" appears in the top right corner of the dropdown box.
     
     B) Click the "Copy URL to clipboard" button (See B).
-    
-    <img src="img/github-clone-repo.png"> 
 
 **Return to your newly created Codenvy workspace**
-       
-2. Clone your Github repository into your Codenvy workspace by copy/pasting this command into the terminal at the bottom of your workspace (replace `"my-github-url.github.io"` with your own github url that you copied from step 1):
-
-`git clone "my-github-url.github.io`
 
 <img src="img/git-clone.png"> 
+
+2. Clone your Github repository into your Codenvy workspace by copy/pasting this command into the terminal at the bottom of your workspace (replace `"my-github-url.github.io"` with your own github url that you copied from step 1):
+
+```
+git clone "my-github-url.github.io`
+```
 
 3. In your bash terminal enter these commands (Substitute you information anywhere you see `"my-github-"):
 
