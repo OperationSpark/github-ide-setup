@@ -90,13 +90,31 @@ git clone "my-github-url.github.io`
 
 3. You should now have your Github repository downloaded into your workspace **(See A)**
 
-3. In your bash terminal enter these commands (Substitute you information anywhere you see `"my-github-"):
+4. In your bash terminal enter these commands (Substitute you information anywhere you see `"my-github-"):
 
 ```
 cd my-github-username.github.io
 git config user.email "my-github-email@gmail.com"
 git config user.name "my-github-username"
 ```
+
+## Share your workspace
+
+1. On the left side of your Codenvy sidebar, click on "Workspaces"
+
+<img src="img/codenvy-workspace-settings-button.png">
+
+2. Next to your workspace, click on the Gear icon **(See Above)**
+
+<img src="img/codenvy-add-developer.png">
+
+3. Go to the "Share" tab **(See A)**
+
+4. Click on "Add Developer" **(See B)**
+
+5. Enter the email of your instructor **(See C)**. Make sure you see a green check-mark by their email.
+
+6. Share your workspace with your instructor.
 
 ## Install `opspark` tool
 
