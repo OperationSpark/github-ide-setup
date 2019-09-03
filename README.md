@@ -54,7 +54,7 @@ Follow these steps and see the screenshot below to create a new workspace.
 2. On the left sidebar of your Codenvy Dashboard, go to "Workspaces". Click on "Add Workspace"
 3. When creating a new workspace make sure to enter these fields as follows:
 
-    A) Name: "operation-spark"
+    A) Name: enter your own Github username
     
     B) Team: "personal"
     
