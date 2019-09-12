@@ -169,6 +169,7 @@ git config user.name "my-github-username"
 NOTE: If you are working on a Windows computer, you must install these 2 pieces of software before moving on:
 
 Node: <a href=https://nodejs.org/en/download> Right Click --> Open in new tab </a>
+
 Git: <a href=https://git-scm.com/download> Right Click --> Open in new tab </a>
 
 ## VS Code
