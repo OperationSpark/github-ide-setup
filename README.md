@@ -9,6 +9,9 @@
     - [Cloning a repository from Github](#cloning-a-repository-from-github)
 - [Offline Setup](#offline-setup)
     - [VS Code](#vs-code)
+    
+    
+https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
 
 # Github
 
