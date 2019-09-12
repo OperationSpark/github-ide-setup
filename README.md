@@ -7,7 +7,8 @@
     - [Share your Codenvy Workspace](#share-your-codenvy-workspace)
     - [Install `opspark` tool](#install-opspark-tool)
     - [Cloning a repository from Github](#cloning-a-repository-from-github)
-- [VS Code](#vs-code)
+- [Offline Setup](#offline-setup)
+    - [VS Code](#vs-code)
 
 # Github
 
@@ -163,7 +164,16 @@ git config user.email "my-github-email@gmail.com"
 git config user.name "my-github-username"
 ```
 
-# VS Code
+# Offline Setup
+
+NOTE: If you are working on a Windows computer, you must install these 2 pieces of software before moving on:
+
+Node: <a href=https://nodejs.org/en/download> Right Click --> Open in new tab </a>
+Git: <a href=https://git-scm.com/download> Right Click --> Open in new tab </a>
+
+## VS Code
+
+Download VS Code: <a href=https://code.visualstudio.com/download target=_blank> Click Here </a>
 
 IDEs (**I**ntegrated **D**evelopment **E**nvironments) are software tools that help us create files, write code, and edit code. IDEs are like Microsoft Word for creating program files. 
 
@@ -171,6 +181,4 @@ VS Code is a free IDE created by Microsoft that is used by professional programm
 
 The drawback is that you need your own computer to program. However, with the use of Github, this can be avoided since Github creates an online backup of your code which can be accessed anywhere with an internet connection. 
 
-## Download VS Code onto your Machine (Windows Instructions)
 
-Download VS Code: <a href=https://code.visualstudio.com/download target=_blank> Click Here </a>
