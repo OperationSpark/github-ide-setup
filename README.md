@@ -4,8 +4,8 @@
     - [Creating a New GitHub Repository](#creating-a-new-github-repository)
 - [Codenvy](#codenvy)
     - [Creating a Codenvy Workspace](#creating-a-codenvy-workspace)
-    - [Install `opspark` tool](#install-opspark-tool)
     - [Cloning a repository from Github](#cloning-a-repository-from-github)
+    - [Install `opspark` tool](#install-opspark-tool)
     - [Share your Codenvy Workspace](#share-your-codenvy-workspace)
 - [Offline Setup](#offline-setup)
     - [VS Code](#vs-code)
@@ -86,25 +86,6 @@ Follow these steps and see the screenshot below to create a new workspace.
     
 Once you have followed these steps you can create your workspace. This may take a moment so while it gets set up we can clone our repository from Github.
 
-## Install `opspark` tool
-
-1. Enter this command:
-
-`curl https://raw.githubusercontent.com/creationix/nvm/v0.25.0/install.sh | bash`
-
-2. Close your terminal. Select **Run** from the top Menu. Click on **Terminal**
-
-3. Back in your terminal, enter these commands:
-
-```
-nvm install 8
-nvm alias default 8
-npm install -g opspark
-os login
-```
-
-4. When prompted, enter your Github username and password.
-
 ## Cloning a repository from Github
 
 Next step, we need to _clone_ our repository into our Codenvy workspace, where we will do our work.  After creating the repository on GitHub, you'll be brought to the repository's default view.  
@@ -150,6 +131,25 @@ cd my-github-username.github.io
 git config user.email "my-github-email@gmail.com"
 git config user.name "my-github-username"
 ```
+
+## Install `opspark` tool
+
+1. Enter this command:
+
+`curl https://raw.githubusercontent.com/creationix/nvm/v0.25.0/install.sh | bash`
+
+2. Close your terminal. Select **Run** from the top Menu. Click on **Terminal**
+
+3. Back in your terminal, enter these commands:
+
+```
+nvm install 8
+nvm alias default 8
+npm install -g opspark
+os login
+```
+
+4. When prompted, enter your Github username and password.
 
 ## Share your Codenvy Workspace
 
