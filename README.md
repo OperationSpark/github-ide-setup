@@ -110,12 +110,6 @@ Next step, we need to _clone_ our repository into our Codenvy workspace, where w
 git clone "my-github-url.github.io`
 ```
 
-or use the line below if you are using self-signed SSL
-
-```
-GIT_SSL_NO_VERIFY=true git clone my-github.github.io
-```
-
 3. You should now have your Github repository downloaded into your workspace **(See A)**
 
 4. The next step requires us to "change directory" to the folder (also known as a _directory_) you just created. In the terminal at the bottom of your workspace, enter this command and replace `my-github-username.github.io` with the name of the folder you just created **(See B)**:
@@ -125,7 +119,7 @@ cd my-github-username.github.io
 ```
 
 
-4. Then, we need to setup some github information. In your bash terminal enter these commands (Substitute with the email you used to setup Github and your Github username):
+5. Then, we need to setup some github information. In your bash terminal enter these commands (Substitute with the email you used to setup Github and your Github username):
 
 ```
 git config user.email "my-github-email@gmail.com"
