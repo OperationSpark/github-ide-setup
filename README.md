@@ -4,9 +4,9 @@
     - [Creating a New GitHub Repository](#creating-a-new-github-repository)
 - [Codenvy](#codenvy)
     - [Creating a Codenvy Workspace](#creating-a-codenvy-workspace)
-    - [Share your Codenvy Workspace](#share-your-codenvy-workspace)
     - [Install `opspark` tool](#install-opspark-tool)
     - [Cloning a repository from Github](#cloning-a-repository-from-github)
+    - [Share your Codenvy Workspace](#share-your-codenvy-workspace)
 - [Offline Setup](#offline-setup)
     - [VS Code](#vs-code)
     
@@ -86,24 +86,6 @@ Follow these steps and see the screenshot below to create a new workspace.
     
 Once you have followed these steps you can create your workspace. This may take a moment so while it gets set up we can clone our repository from Github.
 
-## Share your Codenvy Workspace
-
-1. On the left side of your Codenvy sidebar, click on "Workspaces"
-
-<img src="img/codenvy-workspace-settings-button.png">
-
-2. Next to your workspace, click on the Gear icon **(See Above)**
-
-<img src="img/codenvy-add-developer.png">
-
-3. Go to the "Share" tab **(See A)**
-
-4. Click on "Add Developer" **(See B)**
-
-5. Enter the email of your instructor **(See C)**. Make sure you see a green check-mark by their email.
-
-6. Share your workspace with your instructor.
-
 ## Install `opspark` tool
 
 1. Enter this command:
@@ -169,6 +151,23 @@ git config user.email "my-github-email@gmail.com"
 git config user.name "my-github-username"
 ```
 
+## Share your Codenvy Workspace
+
+1. On the left side of your Codenvy sidebar, click on "Workspaces"
+
+<img src="img/codenvy-workspace-settings-button.png">
+
+2. Next to your workspace, click on the Gear icon **(See Above)**
+
+<img src="img/codenvy-add-developer.png">
+
+3. Go to the "Share" tab **(See A)**
+
+4. Click on "Add Developer" **(See B)**
+
+5. Enter the email of your instructor **(See C)**. Make sure you see a green check-mark by their email.
+
+6. Share your workspace with your instructor.
 # Offline Setup
 
 NOTE: If you are working on a Windows computer, you must install these 2 pieces of software before moving on:
