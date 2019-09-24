@@ -17,6 +17,8 @@ https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
 
 Create an account on GitHub: <a href="https://github.com/login" target="_blank">Click Here</a>
 
+**Note: your username should be a combination of your first and last name**
+
 Github is a Source Control Manager (**S.C.M.**) that makes it incredibly easy to save our code online and periodically release new versions of our programs.
 
 Additionally, GitHub will host a website for each user and organization for free. The feature is called <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>. Each website hosted on Github Pages must adhere to this naming pattern naming pattern:
